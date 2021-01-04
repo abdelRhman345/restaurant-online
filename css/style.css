@@ -146,8 +146,8 @@ body {
     border-radius: 4px;
     border: 1px solid rgba(0, 0, 0, 0.14);
     overflow: hidden;
-    -webkit-transition: .2s;
-    transition: .2s;
+    -webkit-transition: 0.2s;
+    transition: 0.2s;
     cursor: pointer; }
     @media (max-width: 575.98px) {
       .restaurant .restaurant-info {
@@ -227,10 +227,16 @@ body {
         @media (max-width: 575.98px) {
           .restaurant .eat-add .text span {
             margin-top: 5px; } }
-  .restaurant .content .type-one, .restaurant .content .type-two, .restaurant .content .type-there, .restaurant .content .type-four {
+  .restaurant .content .type-one,
+  .restaurant .content .type-two,
+  .restaurant .content .type-there,
+  .restaurant .content .type-four {
     margin: 30px;
     padding: 20px; }
-    .restaurant .content .type-one h2, .restaurant .content .type-two h2, .restaurant .content .type-there h2, .restaurant .content .type-four h2 {
+    .restaurant .content .type-one h2,
+    .restaurant .content .type-two h2,
+    .restaurant .content .type-there h2,
+    .restaurant .content .type-four h2 {
       padding: 10px;
       text-transform: uppercase;
       font-size: 21px;
@@ -242,19 +248,31 @@ body {
       border-left: 10px solid #b6440e;
       margin-bottom: 30px; }
       @media (max-width: 575.98px) {
-        .restaurant .content .type-one h2, .restaurant .content .type-two h2, .restaurant .content .type-there h2, .restaurant .content .type-four h2 {
+        .restaurant .content .type-one h2,
+        .restaurant .content .type-two h2,
+        .restaurant .content .type-there h2,
+        .restaurant .content .type-four h2 {
           font-size: 16px;
           width: 70%; } }
       @media (min-width: 576px) and (max-width: 767.98px) {
-        .restaurant .content .type-one h2, .restaurant .content .type-two h2, .restaurant .content .type-there h2, .restaurant .content .type-four h2 {
+        .restaurant .content .type-one h2,
+        .restaurant .content .type-two h2,
+        .restaurant .content .type-there h2,
+        .restaurant .content .type-four h2 {
           font-size: 17px;
           width: 50%; } }
       @media (min-width: 768px) and (max-width: 991.98px) {
-        .restaurant .content .type-one h2, .restaurant .content .type-two h2, .restaurant .content .type-there h2, .restaurant .content .type-four h2 {
+        .restaurant .content .type-one h2,
+        .restaurant .content .type-two h2,
+        .restaurant .content .type-there h2,
+        .restaurant .content .type-four h2 {
           font-size: 19px;
           width: 40%; } }
       @media (min-width: 992px) and (max-width: 1199.98px) {
-        .restaurant .content .type-one h2, .restaurant .content .type-two h2, .restaurant .content .type-there h2, .restaurant .content .type-four h2 {
+        .restaurant .content .type-one h2,
+        .restaurant .content .type-two h2,
+        .restaurant .content .type-there h2,
+        .restaurant .content .type-four h2 {
           font-size: 19px;
           width: 30%; } }
   .restaurant .content .type-two {
@@ -344,8 +362,8 @@ body {
     height: 35px;
     text-align: center;
     margin: 20px 0 0;
-    -webkit-transition: .3s;
-    transition: .3s;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
     border: 1px solid #ff6600;
     border-radius: 4px;
     background-color: #ff6600; }
@@ -367,5 +385,62 @@ body {
     .form .btn:focus {
       -webkit-box-shadow: 0 0 0 0.25rem rgba(182, 68, 14, 0.5);
               box-shadow: 0 0 0 0.25rem rgba(182, 68, 14, 0.5); }
+
+.not-found {
+  width: 60%;
+  height: 280px;
+  background: #fff;
+  margin: 80px auto;
+  padding: 30px;
+  text-align: center;
+  -webkit-box-shadow: 0px 0px 10.2px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 0px 10.2px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: 1px solid #ddd; }
+  @media (max-width: 575.98px) {
+    .not-found {
+      width: 90%;
+      padding: 40px 15px; } }
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    .not-found {
+      width: 90%; } }
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    .not-found {
+      width: 70%; } }
+  @media (min-width: 992px) and (max-width: 1199.98px) {
+    .not-found {
+      width: 60%; } }
+  .not-found p {
+    font-size: 6em;
+    color: #ff6600;
+    font-weight: bold;
+    margin: 0; }
+    @media (max-width: 575.98px) {
+      .not-found p {
+        font-size: 4.5em; } }
+    @media (min-width: 576px) and (max-width: 767.98px) {
+      .not-found p {
+        font-size: 5em; } }
+    @media (min-width: 768px) and (max-width: 991.98px) {
+      .not-found p {
+        font-size: 5.5em; } }
+  .not-found span {
+    background-color: #b6440e;
+    background: -webkit-gradient(linear, left top, right top, color-stop(50%, #b6440e), color-stop(50%, #ff6600));
+    background: linear-gradient(to right, #b6440e 50%, #ff6600 50%);
+    color: #fff;
+    padding: 8px 12px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase; }
+    @media (max-width: 575.98px) {
+      .not-found span {
+        font-size: 12px; } }
+    @media (min-width: 576px) and (max-width: 767.98px) {
+      .not-found span {
+        font-size: 12px; } }
+    @media (min-width: 768px) and (max-width: 991.98px) {
+      .not-found span {
+        font-size: 13px; } }
 
 /*# sourceMappingURL=style.css.map */
